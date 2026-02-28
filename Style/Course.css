@@ -1,0 +1,111 @@
+/* Custom styling matching the theme */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+.form-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Table styling */
+#Course_Table {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+/* Table with full grid borders */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #ccc; /* Outer border */
+}
+
+/* All cells have borders */
+table th, 
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ccc; /* Cell borders */
+}
+
+/* Make sure table has border */
+table {
+    border: 1px solid #ccc !important;
+}
+
+/* Header styling */
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #2980b9 !important; /* Darker border for headers */
+}
+
+/* Table header row special border */
+thead tr {
+    border-bottom: 2px solid #2980b9 !important;
+}
+
+/* Ensure borders are visible on all rows */
+tr {
+    border-bottom: 1px solid #ccc !important;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Table container with visible border */
+#Course_Table {
+    border: 1px solid #ccc; /* Clear border */
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Force borders to be visible */
+#Course_Table table,
+#Course_Table table th,
+#Course_Table table td {
+    border: 1px solid #ccc !important;
+}
+
+/* Button actions in table */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Error message */
+#error {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}

@@ -1,0 +1,350 @@
+=== 2026-02-16 11:02:46 ===
+POST Data: Array
+(
+    [Mid] => 0
+    [Mcode] => M1234
+    [Mname] => SSS
+    [Number] => 1234569878
+    [Email] => anandrajbites@gmail.com
+    [DOB] => 2008-02-14
+    [Course] => undefined
+    [DOJ] => 2026-02-04
+    [Gender] => Female
+)
+
+FILES Data: Array
+(
+    [Image] => Array
+        (
+            [name] => Screenshot 2026-02-05 104231.png
+            [full_path] => Screenshot 2026-02-05 104231.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpF4C6.tmp
+            [error] => 0
+            [size] => 2628
+        )
+
+)
+
+Processed Data:
+Mid: 0, Mcode: M1234, Mname: SSS, Number: 1234569878, Email: anandrajbites@gmail.com, DOB: 2008-02-14, Course: undefined, DOJ: 2026-02-04, Gender: Female
+Image uploaded: 1771236166_4649.png
+Attempting INSERT...
+=== 2026-02-16 11:02:51 ===
+POST Data: Array
+(
+    [Mid] => 0
+    [Mcode] => M1235
+    [Mname] => SSS
+    [Number] => 1234569878
+    [Email] => anandrajbites@gmail.com
+    [DOB] => 2008-02-14
+    [Course] => undefined
+    [DOJ] => 2026-02-04
+    [Gender] => Female
+)
+
+FILES Data: Array
+(
+    [Image] => Array
+        (
+            [name] => Screenshot 2026-02-05 104231.png
+            [full_path] => Screenshot 2026-02-05 104231.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php968.tmp
+            [error] => 0
+            [size] => 2628
+        )
+
+)
+
+Processed Data:
+Mid: 0, Mcode: M1235, Mname: SSS, Number: 1234569878, Email: anandrajbites@gmail.com, DOB: 2008-02-14, Course: undefined, DOJ: 2026-02-04, Gender: Female
+Image uploaded: 1771236171_4730.png
+Attempting INSERT...
+Table structure:
+Member_Id - int(11)
+Member_Code - varchar(50)
+Member_Name - varchar(50)
+Number - varchar(20)
+Email - varchar(40)
+DOB - date
+Course_Id - int(11)
+DOJ - date
+Gender - enum('Male','Female')
+Image - varchar(50)
+Added_By - int(10)
+Update_By - int(10)
+Update_Date_Time - datetime(5)
+Add_Date_Time - datetime(5)
+SQL: INSERT INTO member_details 
+                      (Member_Code, Member_Name, Number, Email, DOB, Course_Id, DOJ, Gender, Image, Added_By, Add_Date_Time) 
+                      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Exception: Cannot add or update a child row: a foreign key constraint fails (`college`.`member_details`, CONSTRAINT `fk_course_member` FOREIGN KEY (`Course_Id`) REFERENCES `course_details` (`Course_Id`))
+=== END ===
+
+=== 2026-02-16 11:03:30 ===
+POST Data: Array
+(
+    [Mid] => 0
+    [Mcode] => M1235
+    [Mname] => SSS
+    [Number] => 1234569878
+    [Email] => anandrajbites@gmail.com
+    [DOB] => 2008-02-14
+    [Course] => undefined
+    [DOJ] => 2026-02-04
+    [Gender] => Female
+)
+
+FILES Data: Array
+(
+    [Image] => Array
+        (
+            [name] => Screenshot 2026-02-05 104231.png
+            [full_path] => Screenshot 2026-02-05 104231.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpA20F.tmp
+            [error] => 0
+            [size] => 2628
+        )
+
+)
+
+Processed Data:
+Mid: 0, Mcode: M1235, Mname: SSS, Number: 1234569878, Email: anandrajbites@gmail.com, DOB: 2008-02-14, Course: undefined, DOJ: 2026-02-04, Gender: Female
+Image uploaded: 1771236210_7851.png
+Attempting INSERT...
+Table structure:
+Member_Id - int(11)
+Member_Code - varchar(50)
+Member_Name - varchar(50)
+Number - varchar(20)
+Email - varchar(40)
+DOB - date
+Course_Id - int(11)
+DOJ - date
+Gender - enum('Male','Female')
+Image - varchar(50)
+Added_By - int(10)
+Update_By - int(10)
+Update_Date_Time - datetime(5)
+Add_Date_Time - datetime(5)
+SQL: INSERT INTO member_details 
+                      (Member_Code, Member_Name, Number, Email, DOB, Course_Id, DOJ, Gender, Image, Added_By, Add_Date_Time) 
+                      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Exception: Cannot add or update a child row: a foreign key constraint fails (`college`.`member_details`, CONSTRAINT `fk_course_member` FOREIGN KEY (`Course_Id`) REFERENCES `course_details` (`Course_Id`))
+=== END ===
+
+=== 2026-02-16 11:03:42 ===
+POST Data: Array
+(
+    [Mid] => 0
+    [Mcode] => M1235
+    [Mname] => SSS
+    [Number] => 1234569878
+    [Email] => anandrajbites@gmail.com
+    [DOB] => 2008-02-14
+    [Course] => undefined
+    [DOJ] => 2026-02-04
+    [Gender] => Female
+)
+
+FILES Data: Array
+(
+    [Image] => Array
+        (
+            [name] => Screenshot 2026-02-05 104231.png
+            [full_path] => Screenshot 2026-02-05 104231.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpCFD7.tmp
+            [error] => 0
+            [size] => 2628
+        )
+
+)
+
+Processed Data:
+Mid: 0, Mcode: M1235, Mname: SSS, Number: 1234569878, Email: anandrajbites@gmail.com, DOB: 2008-02-14, Course: undefined, DOJ: 2026-02-04, Gender: Female
+Image uploaded: 1771236222_9363.png
+Attempting INSERT...
+Table structure:
+Member_Id - int(11)
+Member_Code - varchar(50)
+Member_Name - varchar(50)
+Number - varchar(20)
+Email - varchar(40)
+DOB - date
+Course_Id - int(11)
+DOJ - date
+Gender - enum('Male','Female')
+Image - varchar(50)
+Added_By - int(10)
+Update_By - int(10)
+Update_Date_Time - datetime(5)
+Add_Date_Time - datetime(5)
+SQL: INSERT INTO member_details 
+                      (Member_Code, Member_Name, Number, Email, DOB, Course_Id, DOJ, Gender, Image, Added_By, Add_Date_Time) 
+                      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Exception: Cannot add or update a child row: a foreign key constraint fails (`college`.`member_details`, CONSTRAINT `fk_course_member` FOREIGN KEY (`Course_Id`) REFERENCES `course_details` (`Course_Id`))
+=== END ===
+
+=== 2026-02-16 11:05:00 ===
+POST Data: Array
+(
+    [Mid] => 0
+    [Mcode] => M1235
+    [Mname] => SSS
+    [Number] => 1234569878
+    [Email] => anandrajbites@gmail.com
+    [DOB] => 2008-02-14
+    [Course] => undefined
+    [DOJ] => 2026-02-04
+    [Gender] => Female
+)
+
+FILES Data: Array
+(
+    [Image] => Array
+        (
+            [name] => Screenshot 2026-02-05 104231.png
+            [full_path] => Screenshot 2026-02-05 104231.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php149.tmp
+            [error] => 0
+            [size] => 2628
+        )
+
+)
+
+Processed Data:
+Mid: 0, Mcode: M1235, Mname: SSS, Number: 1234569878, Email: anandrajbites@gmail.com, DOB: 2008-02-14, Course: undefined, DOJ: 2026-02-04, Gender: Female
+Image uploaded: 1771236300_4422.png
+Attempting INSERT...
+Table structure:
+Member_Id - int(11)
+Member_Code - varchar(5)
+Member_Name - varchar(20)
+Number - varchar(10)
+Email - varchar(50)
+DOB - date
+Course_Id - int(11)
+DOJ - date
+Gender - enum('Male','Female','Other')
+Image - varchar(255)
+Added_By - int(11)
+Add_Date_Time - datetime
+Updated_By - int(11)
+Update_Date_Time - datetime
+SQL: INSERT INTO member_details 
+                      (Member_Code, Member_Name, Number, Email, DOB, Course_Id, DOJ, Gender, Image, Added_By, Add_Date_Time) 
+                      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Exception: Cannot add or update a child row: a foreign key constraint fails (`my_db`.`member_details`, CONSTRAINT `member_details_ibfk_1` FOREIGN KEY (`Course_Id`) REFERENCES `course_details` (`Course_Id`) ON DELETE SET NULL)
+=== END ===
+
+=== 2026-02-16 11:05:11 ===
+POST Data: Array
+(
+    [Mid] => 0
+    [Mcode] => M1235
+    [Mname] => SSS
+    [Number] => 1234569878
+    [Email] => anandrajbites@gmail.com
+    [DOB] => 2008-02-14
+    [Course] => undefined
+    [DOJ] => 2026-02-04
+    [Gender] => Female
+)
+
+FILES Data: Array
+(
+    [Image] => Array
+        (
+            [name] => Screenshot 2026-02-05 104231.png
+            [full_path] => Screenshot 2026-02-05 104231.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php2CCF.tmp
+            [error] => 0
+            [size] => 2628
+        )
+
+)
+
+Processed Data:
+Mid: 0, Mcode: M1235, Mname: SSS, Number: 1234569878, Email: anandrajbites@gmail.com, DOB: 2008-02-14, Course: undefined, DOJ: 2026-02-04, Gender: Female
+Image uploaded: 1771236311_9951.png
+Attempting INSERT...
+Table structure:
+Member_Id - int(11)
+Member_Code - varchar(5)
+Member_Name - varchar(20)
+Number - varchar(10)
+Email - varchar(50)
+DOB - date
+Course_Id - int(11)
+DOJ - date
+Gender - enum('Male','Female','Other')
+Image - varchar(255)
+Added_By - int(11)
+Add_Date_Time - datetime
+Updated_By - int(11)
+Update_Date_Time - datetime
+SQL: INSERT INTO member_details 
+                      (Member_Code, Member_Name, Number, Email, DOB, Course_Id, DOJ, Gender, Image, Added_By, Add_Date_Time) 
+                      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Exception: Cannot add or update a child row: a foreign key constraint fails (`my_db`.`member_details`, CONSTRAINT `member_details_ibfk_1` FOREIGN KEY (`Course_Id`) REFERENCES `course_details` (`Course_Id`) ON DELETE SET NULL)
+=== END ===
+
+=== 2026-02-16 11:05:25 ===
+POST Data: Array
+(
+    [Mid] => 0
+    [Mcode] => M1235
+    [Mname] => SSS
+    [Number] => 1234569878
+    [Email] => anandrajbites@gmail.com
+    [DOB] => 2008-02-14
+    [Course] => undefined
+    [DOJ] => 2026-02-04
+    [Gender] => Female
+)
+
+FILES Data: Array
+(
+    [Image] => Array
+        (
+            [name] => Screenshot 2026-02-05 104231.png
+            [full_path] => Screenshot 2026-02-05 104231.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php6238.tmp
+            [error] => 0
+            [size] => 2628
+        )
+
+)
+
+Processed Data:
+Mid: 0, Mcode: M1235, Mname: SSS, Number: 1234569878, Email: anandrajbites@gmail.com, DOB: 2008-02-14, Course: undefined, DOJ: 2026-02-04, Gender: Female
+Image uploaded: 1771236325_6414.png
+Attempting INSERT...
+Table structure:
+Member_Id - int(11)
+Member_Code - varchar(5)
+Member_Name - varchar(20)
+Number - varchar(10)
+Email - varchar(50)
+DOB - date
+Course_Id - int(11)
+DOJ - date
+Gender - enum('Male','Female','Other')
+Image - varchar(255)
+Added_By - int(11)
+Add_Date_Time - datetime
+Updated_By - int(11)
+Update_Date_Time - datetime
+SQL: INSERT INTO member_details 
+                      (Member_Code, Member_Name, Number, Email, DOB, Course_Id, DOJ, Gender, Image, Added_By, Add_Date_Time) 
+                      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Exception: Cannot add or update a child row: a foreign key constraint fails (`my_db`.`member_details`, CONSTRAINT `member_details_ibfk_1` FOREIGN KEY (`Course_Id`) REFERENCES `course_details` (`Course_Id`) ON DELETE SET NULL)
+=== END ===
+
